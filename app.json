@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Parking",
+    "slug": "Parking",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./app/assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./app/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#275053"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tengoHambre.parkingControl"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./app/assets/adaptive-icon.png",
+        "backgroundColor": "#275053",
+        "bundleIdentifier": "com.tengoHambre.parkingControl"
+      },
+      "package": "com.tengoHambre.parkingControl"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
